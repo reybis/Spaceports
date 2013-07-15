@@ -13,6 +13,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    UIColor *backgroundColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes: @{
+                                UITextAttributeTextColor: backgroundColor,
+                          UITextAttributeTextShadowColor: [UIColor colorWithWhite:0.0 alpha:0.5]}
+     ];
+    
+    [[UINavigationBar appearance] setTintColor:backgroundColor];
+    
     return YES;
 }
 							

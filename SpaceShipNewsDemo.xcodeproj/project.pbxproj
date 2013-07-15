@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193BBED21793B090004C3ABA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193BBED11793B090004C3ABA /* CoreLocation.framework */; };
+		193BBED41793B097004C3ABA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193BBED31793B097004C3ABA /* MapKit.framework */; };
+		193BBED71793B0E2004C3ABA /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 193BBED61793B0E2004C3ABA /* MapViewAnnotation.m */; };
 		19EBAB2B17935885006FD42F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EBAB2A17935885006FD42F /* UIKit.framework */; };
 		19EBAB2D17935885006FD42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EBAB2C17935885006FD42F /* Foundation.framework */; };
 		19EBAB2F17935885006FD42F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EBAB2E17935885006FD42F /* CoreGraphics.framework */; };
@@ -17,26 +20,47 @@
 		19EBAB3F17935885006FD42F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19EBAB3E17935885006FD42F /* Default@2x.png */; };
 		19EBAB4117935885006FD42F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19EBAB4017935885006FD42F /* Default-568h@2x.png */; };
 		19EBAB4417935885006FD42F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19EBAB4217935885006FD42F /* MainStoryboard.storyboard */; };
-		19EBAB4717935885006FD42F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EBAB4617935885006FD42F /* ViewController.m */; };
+		19EBAB4F17938081006FD42F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EBAB4E17938081006FD42F /* MainViewController.m */; };
+		19EBAB52179380BA006FD42F /* SpaceShipNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EBAB51179380BA006FD42F /* SpaceShipNew.m */; };
+		19EBAB55179385F1006FD42F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EBAB54179385F1006FD42F /* DetailViewController.m */; };
+		19EBAB5917938A5D006FD42F /* bookmark_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19EBAB5617938A5D006FD42F /* bookmark_photo.jpg */; };
+		19EBAB5A17938A5D006FD42F /* calendar_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19EBAB5717938A5D006FD42F /* calendar_photo.jpg */; };
+		19EBAB5B17938A5D006FD42F /* comments_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19EBAB5817938A5D006FD42F /* comments_photo.jpg */; };
+		19EBAB5E1793996E006FD42F /* Steve.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EBAB5D1793996E006FD42F /* Steve.m */; };
+		19EBAB6A1793A30D006FD42F /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 19EBAB691793A30D006FD42F /* news.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		19EBAB2717935885006FD42F /* DeveloperNewsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveloperNewsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		193BBED11793B090004C3ABA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		193BBED31793B097004C3ABA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		193BBED51793B0E2004C3ABA /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
+		193BBED61793B0E2004C3ABA /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
+		19EBAB2717935885006FD42F /* SpaceShipNewsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceShipNewsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19EBAB2A17935885006FD42F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		19EBAB2C17935885006FD42F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		19EBAB2E17935885006FD42F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		19EBAB3217935885006FD42F /* DeveloperNewsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeveloperNewsDemo-Info.plist"; sourceTree = "<group>"; };
+		19EBAB3217935885006FD42F /* SpaceShipNewsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceShipNewsDemo-Info.plist"; sourceTree = "<group>"; };
 		19EBAB3417935885006FD42F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19EBAB3617935885006FD42F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		19EBAB3817935885006FD42F /* DeveloperNewsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeveloperNewsDemo-Prefix.pch"; sourceTree = "<group>"; };
+		19EBAB3817935885006FD42F /* SpaceShipNewsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpaceShipNewsDemo-Prefix.pch"; sourceTree = "<group>"; };
 		19EBAB3917935885006FD42F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19EBAB3A17935885006FD42F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		19EBAB3C17935885006FD42F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		19EBAB3E17935885006FD42F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		19EBAB4017935885006FD42F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		19EBAB4317935885006FD42F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		19EBAB4517935885006FD42F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		19EBAB4617935885006FD42F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19EBAB4D17938081006FD42F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		19EBAB4E17938081006FD42F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		19EBAB50179380BA006FD42F /* SpaceShipNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipNew.h; sourceTree = "<group>"; };
+		19EBAB51179380BA006FD42F /* SpaceShipNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipNew.m; sourceTree = "<group>"; };
+		19EBAB53179385F1006FD42F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		19EBAB54179385F1006FD42F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		19EBAB5617938A5D006FD42F /* bookmark_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookmark_photo.jpg; sourceTree = "<group>"; };
+		19EBAB5717938A5D006FD42F /* calendar_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calendar_photo.jpg; sourceTree = "<group>"; };
+		19EBAB5817938A5D006FD42F /* comments_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comments_photo.jpg; sourceTree = "<group>"; };
+		19EBAB5C1793996E006FD42F /* Steve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Steve.h; sourceTree = "<group>"; };
+		19EBAB5D1793996E006FD42F /* Steve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Steve.m; sourceTree = "<group>"; };
+		19EBAB691793A30D006FD42F /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = news.png; path = "../../../../Downloads/ios dev/icons/news.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				193BBED41793B097004C3ABA /* MapKit.framework in Frameworks */,
+				193BBED21793B090004C3ABA /* CoreLocation.framework in Frameworks */,
 				19EBAB2B17935885006FD42F /* UIKit.framework in Frameworks */,
 				19EBAB2D17935885006FD42F /* Foundation.framework in Frameworks */,
 				19EBAB2F17935885006FD42F /* CoreGraphics.framework in Frameworks */,
@@ -56,7 +82,9 @@
 		19EBAB1E17935885006FD42F = {
 			isa = PBXGroup;
 			children = (
-				19EBAB3017935885006FD42F /* DeveloperNewsDemo */,
+				193BBED31793B097004C3ABA /* MapKit.framework */,
+				193BBED11793B090004C3ABA /* CoreLocation.framework */,
+				19EBAB3017935885006FD42F /* SpaceShipNewsDemo */,
 				19EBAB2917935885006FD42F /* Frameworks */,
 				19EBAB2817935885006FD42F /* Products */,
 			);
@@ -65,7 +93,7 @@
 		19EBAB2817935885006FD42F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19EBAB2717935885006FD42F /* DeveloperNewsDemo.app */,
+				19EBAB2717935885006FD42F /* SpaceShipNewsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,26 +108,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		19EBAB3017935885006FD42F /* DeveloperNewsDemo */ = {
+		19EBAB3017935885006FD42F /* SpaceShipNewsDemo */ = {
 			isa = PBXGroup;
 			children = (
 				19EBAB3917935885006FD42F /* AppDelegate.h */,
 				19EBAB3A17935885006FD42F /* AppDelegate.m */,
 				19EBAB4217935885006FD42F /* MainStoryboard.storyboard */,
-				19EBAB4517935885006FD42F /* ViewController.h */,
-				19EBAB4617935885006FD42F /* ViewController.m */,
 				19EBAB3117935885006FD42F /* Supporting Files */,
+				19EBAB4D17938081006FD42F /* MainViewController.h */,
+				19EBAB4E17938081006FD42F /* MainViewController.m */,
+				19EBAB50179380BA006FD42F /* SpaceShipNew.h */,
+				19EBAB51179380BA006FD42F /* SpaceShipNew.m */,
+				19EBAB53179385F1006FD42F /* DetailViewController.h */,
+				19EBAB54179385F1006FD42F /* DetailViewController.m */,
+				19EBAB5C1793996E006FD42F /* Steve.h */,
+				19EBAB5D1793996E006FD42F /* Steve.m */,
+				193BBED51793B0E2004C3ABA /* MapViewAnnotation.h */,
+				193BBED61793B0E2004C3ABA /* MapViewAnnotation.m */,
 			);
+			name = SpaceShipNewsDemo;
 			path = DeveloperNewsDemo;
 			sourceTree = "<group>";
 		};
 		19EBAB3117935885006FD42F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				19EBAB3217935885006FD42F /* DeveloperNewsDemo-Info.plist */,
+				19EBAB691793A30D006FD42F /* news.png */,
+				19EBAB5617938A5D006FD42F /* bookmark_photo.jpg */,
+				19EBAB5717938A5D006FD42F /* calendar_photo.jpg */,
+				19EBAB5817938A5D006FD42F /* comments_photo.jpg */,
+				19EBAB3217935885006FD42F /* SpaceShipNewsDemo-Info.plist */,
 				19EBAB3317935885006FD42F /* InfoPlist.strings */,
 				19EBAB3617935885006FD42F /* main.m */,
-				19EBAB3817935885006FD42F /* DeveloperNewsDemo-Prefix.pch */,
+				19EBAB3817935885006FD42F /* SpaceShipNewsDemo-Prefix.pch */,
 				19EBAB3C17935885006FD42F /* Default.png */,
 				19EBAB3E17935885006FD42F /* Default@2x.png */,
 				19EBAB4017935885006FD42F /* Default-568h@2x.png */,
@@ -110,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19EBAB2617935885006FD42F /* DeveloperNewsDemo */ = {
+		19EBAB2617935885006FD42F /* SpaceShipNewsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19EBAB4A17935885006FD42F /* Build configuration list for PBXNativeTarget "DeveloperNewsDemo" */;
+			buildConfigurationList = 19EBAB4A17935885006FD42F /* Build configuration list for PBXNativeTarget "SpaceShipNewsDemo" */;
 			buildPhases = (
 				19EBAB2317935885006FD42F /* Sources */,
 				19EBAB2417935885006FD42F /* Frameworks */,
@@ -122,9 +163,9 @@
 			);
 			dependencies = (
 			);
-			name = DeveloperNewsDemo;
+			name = SpaceShipNewsDemo;
 			productName = DeveloperNewsDemo;
-			productReference = 19EBAB2717935885006FD42F /* DeveloperNewsDemo.app */;
+			productReference = 19EBAB2717935885006FD42F /* SpaceShipNewsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +177,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = EnSoft;
 			};
-			buildConfigurationList = 19EBAB2217935885006FD42F /* Build configuration list for PBXProject "DeveloperNewsDemo" */;
+			buildConfigurationList = 19EBAB2217935885006FD42F /* Build configuration list for PBXProject "SpaceShipNewsDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +189,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19EBAB2617935885006FD42F /* DeveloperNewsDemo */,
+				19EBAB2617935885006FD42F /* SpaceShipNewsDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +204,10 @@
 				19EBAB3F17935885006FD42F /* Default@2x.png in Resources */,
 				19EBAB4117935885006FD42F /* Default-568h@2x.png in Resources */,
 				19EBAB4417935885006FD42F /* MainStoryboard.storyboard in Resources */,
+				19EBAB5917938A5D006FD42F /* bookmark_photo.jpg in Resources */,
+				19EBAB5A17938A5D006FD42F /* calendar_photo.jpg in Resources */,
+				19EBAB5B17938A5D006FD42F /* comments_photo.jpg in Resources */,
+				19EBAB6A1793A30D006FD42F /* news.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +220,11 @@
 			files = (
 				19EBAB3717935885006FD42F /* main.m in Sources */,
 				19EBAB3B17935885006FD42F /* AppDelegate.m in Sources */,
-				19EBAB4717935885006FD42F /* ViewController.m in Sources */,
+				19EBAB4F17938081006FD42F /* MainViewController.m in Sources */,
+				19EBAB52179380BA006FD42F /* SpaceShipNew.m in Sources */,
+				19EBAB55179385F1006FD42F /* DetailViewController.m in Sources */,
+				19EBAB5E1793996E006FD42F /* Steve.m in Sources */,
+				193BBED71793B0E2004C3ABA /* MapViewAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +310,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DeveloperNewsDemo/DeveloperNewsDemo-Prefix.pch";
-				INFOPLIST_FILE = "DeveloperNewsDemo/DeveloperNewsDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DeveloperNewsDemo/SpaceShipNewsDemo-Prefix.pch";
+				INFOPLIST_FILE = "DeveloperNewsDemo/SpaceShipNewsDemo-Info.plist";
+				PRODUCT_NAME = SpaceShipNewsDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,9 +321,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DeveloperNewsDemo/DeveloperNewsDemo-Prefix.pch";
-				INFOPLIST_FILE = "DeveloperNewsDemo/DeveloperNewsDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DeveloperNewsDemo/SpaceShipNewsDemo-Prefix.pch";
+				INFOPLIST_FILE = "DeveloperNewsDemo/SpaceShipNewsDemo-Info.plist";
+				PRODUCT_NAME = SpaceShipNewsDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19EBAB2217935885006FD42F /* Build configuration list for PBXProject "DeveloperNewsDemo" */ = {
+		19EBAB2217935885006FD42F /* Build configuration list for PBXProject "SpaceShipNewsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19EBAB4817935885006FD42F /* Debug */,
@@ -291,13 +340,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19EBAB4A17935885006FD42F /* Build configuration list for PBXNativeTarget "DeveloperNewsDemo" */ = {
+		19EBAB4A17935885006FD42F /* Build configuration list for PBXNativeTarget "SpaceShipNewsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19EBAB4B17935885006FD42F /* Debug */,
 				19EBAB4C17935885006FD42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,9 +1,9 @@
 //
 //  MapViewAnnotation.m
-//  SpaceShipNewsDemo
+//  SpacePortsDemo
 //
 //  Created by Reybis Ceballos on 7/15/13.
-//  Copyright (c) 2013 EnSoft. All rights reserved.
+//  Copyright (c) 2013 PrinSoft. All rights reserved.
 //
 
 #import "MapViewAnnotation.h"
